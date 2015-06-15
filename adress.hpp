@@ -2,5 +2,6 @@
 using namespace std;
 int main()
 {
-    Cout<<"asd.";
+    cout<<"pari";
+    cout<<"pari";
 }
