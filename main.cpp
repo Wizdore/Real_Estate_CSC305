@@ -1,10 +1,10 @@
 #include <iostream>
+#include "Shoikoth/pinik.cpp"
 
 using namespace std;
 
 int main()
 {
-    cout << "Work Started" << endl;
-    cout << "Shoikoth" << endl;
+    out();
     return 0;
 }
