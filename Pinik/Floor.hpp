@@ -9,8 +9,5 @@ protected:
     string name;
     int number;
     vector<Room> rooms;
-
 public:
-
-
 };

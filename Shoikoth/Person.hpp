@@ -13,7 +13,7 @@ protected:
     Date dob;
 public:
 }
-class Person: public Customer{
+class Customer: public Person{
 protected:
     int mainrange;
     int maxrange;
@@ -23,14 +23,14 @@ protected:
 public:
 }
 
-class Person: public Employee{
+class Employee: public Person{
 protected:
     double salary;
     string designation;
 public:
 }
 
-class Person: public Vendor{
+class Vendor: public Person{
 protected:
     vector<property>toSell;
 public:
