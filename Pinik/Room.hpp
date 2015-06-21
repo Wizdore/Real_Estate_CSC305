@@ -8,8 +8,5 @@ protected:
     string name;
     int sizeSqFt;
     vector<string> features;
-
 public:
-
-
 };

@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 #include "Adress.hpp"
 #include "Date.hpp"
 using namespace std;
@@ -31,7 +32,7 @@ public:
 
 class Person: public Vendor{
 protected:
-    vector<property>toSell
+    vector<property>toSell;
 public:
 }
 

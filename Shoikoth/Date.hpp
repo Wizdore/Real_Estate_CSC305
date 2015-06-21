@@ -3,7 +3,7 @@
 #include "Date.hpp"
 using namespace std;
 
-class Person{
+class Date{
 protected:
     string day;
     string month;

@@ -9,14 +9,14 @@ protected:
     string steetinfo;
 public:
 }
-class Adress: House Adress
+class Adress: public House Adress
 {
 protected:
     string houseNo;
     string sector;
 public:
 }
-class Adress: Flat Adress{
+class Adress: public Flat Adress{
 protected:
     int floorNo;
     string FlatNo;
