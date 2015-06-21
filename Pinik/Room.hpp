@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-class Floor
+class Room
 {
 protected:
     string name;
