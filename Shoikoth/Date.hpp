@@ -7,7 +7,7 @@ class Date{
 protected:
     string day;
     string month;
-    int date No;
+    int dateNo;
     int year;
 public:
 }
