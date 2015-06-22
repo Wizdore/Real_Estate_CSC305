@@ -1,8 +1,5 @@
-#include <iostream>
-
-using namespace std;
-
+#include"library.h"
 int main()
 {
-
+  cout<<"Hello World.";
 }
