@@ -12,7 +12,15 @@ protected:
     string contactnumber;
     string email;
     Date dob;
+    static int AvId;
 public:
+    int id;
+    Person()
+    {
+        id = AvId;
+        AvId++;
+    }
+
     friend istream & operator >>(istream &, Person &);
     friend ostream & operator <<(ostream &, Person &);
 };
@@ -33,6 +41,7 @@ ostream & operator <<(ostream & dout, Person & P)
     dout<<"\nDate:"<<P.dob;
 }
 
+int Person::AvId = 0;
 /**************************************************************/
 
 class Customer: public Person{
@@ -49,6 +58,7 @@ public:
 istream &operator>>(istream & din, Customer& C)
 {
     din>>C;
+    return din;
 }
 /****************************************************************/
 class Employee: public Person{

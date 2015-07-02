@@ -15,10 +15,22 @@ protected:
     double buyPrice;
     double sellPrice;
     Date available;
+    static int AvId;
 
 public:
 
+    int id;
+
+    Property()
+    {
+        id = AvId;
+        AvId++;
+    }
+
 };
+
+
+int Property::AvId = 0;
 
 class Plot : public Property
 {

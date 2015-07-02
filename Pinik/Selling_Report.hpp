@@ -13,8 +13,6 @@ protected:
     Vendor boughtFrom;
     Customer soldTo;
     double profit;
-
 public:
-
 
 };
