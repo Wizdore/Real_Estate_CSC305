@@ -30,38 +30,22 @@ private:
         if(p->getType() == "p") pMenu(p);
     }
 
-<<<<<<< HEAD
     void cMenu(Person* p)
-=======
-    void customerMenu()
->>>>>>> parent of a61c5c0... resolved
     {
 
     }
 
-<<<<<<< HEAD
     void eMenu(Person* p)
-=======
-    void employeeMenu()
->>>>>>> parent of a61c5c0... resolved
     {
 
     }
 
-<<<<<<< HEAD
     void vMenu(Person* p)
-=======
-    void vendorMenu()
->>>>>>> parent of a61c5c0... resolved
     {
 
     }
 
-<<<<<<< HEAD
     void pMenu(Person* p)
-=======
-    void personMenu()
->>>>>>> parent of a61c5c0... resolved
     {
 
     }
