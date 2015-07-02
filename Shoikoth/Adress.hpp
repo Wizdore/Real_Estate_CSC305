@@ -9,11 +9,11 @@ protected:
     int zip;
     string steetinfo;
 public:
-    string getCity()return city;
-    string getCountry()return country;
-    int getzip()return zip;
-    string getSteetinfo ()return steetinfo;
 
+    string getCity(){return city;}
+    string getCountry(){return country;}
+    int getzip(){return zip;}
+    string getSteetinfo(){return steetinfo;}
 
     friend istream& operator >>(istream &, Adress &);
     friend ostream& operator <<(ostream &, Adress &);
@@ -40,8 +40,8 @@ protected:
     int houseNo;
     int sector;
 public:
-    int getHouseNo() return houseNo;
-    int getSector() return sector;
+    int getHouseNo() {return houseNo;}
+    int getSector() {return sector;}
     friend istream& operator >>(istream &, HouseAdress &);
     friend ostream& operator <<(ostream &, HouseAdress &);
 };
@@ -74,8 +74,8 @@ protected:
     int floorNo;
     int FlatNo;
 public:
-    int getFloorNo() return floorNo;
-    int getFlatNo() return FlatNo;
+    int getFloorNo(){return floorNo;}
+    int getFlatNo(){return FlatNo;}
 
     friend istream& operator >>(istream &, FlatAdress &);
     friend ostream& operator <<(ostream &, FlatAdress &);
