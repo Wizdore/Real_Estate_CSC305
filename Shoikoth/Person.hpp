@@ -20,20 +20,13 @@ public:
         type = "t";
     }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
     string getName () {return name;}
     string getType () {return type;}
     Adress getAdress () {return adress;}
     string getContactnumber () {return contactnumber;}
     string getEmail () {return email;}
     Date getDate () {return dob;}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 
     int id;
     Person()
@@ -74,14 +67,12 @@ protected:
     string cpostottrice;
 public:
 
-<<<<<<< HEAD
-=======
+
     int getMainrange() {return mainrange;}
     int getMaxrange() {return maxrange;}
     string getCproptype () {return cproptype;}
     string getWord() {return word;}
     string getCpostottrice() {return cpostottrice;}
->>>>>>> origin/master
 
     Customer()
     {
@@ -89,15 +80,6 @@ public:
         type = "c";
     }
 
-<<<<<<< HEAD
-    int getMainrange () return mainrange;
-    int getMaxrange () return maxrange;
-    string getCproptype () return cproptype;
-    string getWord () return word;
-    string getCpostottrice () return cpostottrice;
-
-=======
->>>>>>> origin/master
     friend istream &operator>>(istream &, Customer&);
     friend ostream &operator<<(ostream &, Customer&);
 };
@@ -112,24 +94,17 @@ protected:
     double salary;
     string designation;
 public:
-<<<<<<< HEAD
-=======
 
-    double getSalary() {return salary;}
-    string getDesignation() {return designation;}
-
->>>>>>> origin/master
 
     Employee()
     {
         type = "e";
     }
 
-<<<<<<< HEAD
+
     double getSalary() return salary;
     string getDesignation() return designation;
-=======
->>>>>>> origin/master
+
     friend istream & operator >>(istream &, Employee &);
     friend ostream & operator <<(ostream &, Employee &);
 };
