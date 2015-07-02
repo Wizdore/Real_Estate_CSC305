@@ -15,9 +15,13 @@ protected:
     Date dob;
     static int AvId;
 public:
+    Person()
+    {
+        type = "t";
+    }
 
     string getName () return name;
-    string getType () return type;
+    string getType () {return type;};
     Adress getAdress () return adress;
     string getContactnumber () return contactnumber;
     string getEmail () return email;
@@ -62,6 +66,12 @@ protected:
     string cpostottrice;
 public:
 
+    Customer()
+    {
+
+        type = "c";
+    }
+
     int getMainrange () return mainrange;
     int getMaxrange () return maxrange;
     string getCproptype () return cproptype;
@@ -82,6 +92,12 @@ protected:
     double salary;
     string designation;
 public:
+
+    Employee()
+    {
+        type = "e";
+    }
+
     double getSalary() return salary;
     string getDesignation() return designation;
     friend istream & operator >>(istream &, Employee &);
@@ -114,6 +130,10 @@ class Vendor: public Person{
 protected:
    // vector<property>toSell;
 public:
+    Vendor()
+    {
+        type = "v";
+    }
 };
 
 
