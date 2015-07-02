@@ -30,22 +30,22 @@ private:
         if(p->getType() == "p") pMenu(p);
     }
 
-    void cMenu()
+    void customerMenu()
     {
 
     }
 
-    void eMenu()
+    void employeeMenu()
     {
 
     }
 
-    void vMenu()
+    void vendorMenu()
     {
 
     }
 
-    void pMenu()
+    void personMenu()
     {
 
     }
