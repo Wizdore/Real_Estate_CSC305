@@ -19,10 +19,10 @@ public:
 istream & operator >>(istream & din, Person & P)
 {
     cout<<"Enter Name:"; getline(din, P.name);
-    cout<<"Enter your Address:\n";din>>P.adress;
+    cout<<"Enter your Address.....\n";din>>P.adress;
     cout<<"Enter your contact number:"; din>>P.contactnumber;
     cout<<"Enter your email:"; din>>P.email;
-    cout<<"Enter the date"; din>>P.dob;
+    cout<<"Enter the Birth day........\n"; din>>P.dob;
 }
 ostream & operator <<(ostream & dout, Person & P)
 {
@@ -66,7 +66,7 @@ istream& operator >>(istream & din, Employee&P)
     cout<<"Enter your Address:\n";din>>P.adress;
     cout<<"Enter your contact number:"; din>>P.contactnumber;
     cout<<"Enter your email:"; din>>P.email;
-    cout<<"Enter the date"; din>>P.dob;
+    cout<<"Enter the Birth day..........\n"; din>>P.dob;
     cout<<"Enter salary:";cin>>P.salary;
     cout<<"Enter designation:"; getline(cin,P.designation);
     return din;

@@ -17,7 +17,7 @@ istream& operator >>(istream &input, Adress &A)
     cout<<"Enter city:";getline(input, A.city);
     cout<<"Enter country:"; getline(input, A.country);
     cout<<"Enter Zip:"; input>>A.zip;
-    cout<<"Enter State Info:"; getline(input, A.steetinfo);
+    cout<<"Enter State Info:"; cin.ignore(); getline(input, A.steetinfo);
     return input;
 }
 ostream& operator <<(ostream &dout, Adress &A)
@@ -43,7 +43,7 @@ istream& operator >>(istream &input, HouseAdress &A)
     cout<<"Enter city:";getline(input, A.city);
     cout<<"Enter country:"; getline(input, A.country);
     cout<<"Enter Zip:"; input>>A.zip;
-    cout<<"Enter State Info:"; getline(input, A.steetinfo);
+    cout<<"Enter State Info:"; cin.ignore(); getline(input, A.steetinfo);
     cout<<"Enter House NO:"; input>>A.houseNo;
     cout<<"Enter Sector:"; input>>A.sector;
     return input;
@@ -75,7 +75,7 @@ istream& operator >>(istream &input, FlatAdress &A)
     cout<<"Enter city:";getline(input, A.city);
     cout<<"Enter country:"; getline(input, A.country);
     cout<<"Enter Zip:"; input>>A.zip;
-    cout<<"Enter State Info:"; getline(input, A.steetinfo);
+    cout<<"Enter State Info:"; cin.ignore();  getline(input, A.steetinfo);
     cout<<"Enter Floor No"; input>>A.floorNo;
     cout<<"Enter Flat No"; input>>A.FlatNo;
     return input;
