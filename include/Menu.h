@@ -5,17 +5,24 @@ class Menu
 {
 protected:
 
+    Person* p;
 public:
 
-    void mainMenu()
+    void mainMenu(Person* p)
     {
+        this.p = p;
+
+        int ch;
         cout<<"1.Log in."<<endl;
         cout<<"2.Sign up."<<endl;
         cout<<"3.Forgot Password."<<endl;
+        cin>>ch;
+
+        if(ch==1)
     }
 
 private:
-    void display(Person* p)
+    void display()
     {
         if(p->getType() == "c") cMenu(p);
         if(p->getType() == "e") eMenu(p);
@@ -23,22 +30,22 @@ private:
         if(p->getType() == "p") pMenu(p);
     }
 
-    void cMenu(Person* p)
+    void cMenu()
     {
 
     }
 
-    void eMenu(Person* p)
+    void eMenu()
     {
 
     }
 
-    void vMenu(Person* p)
+    void vMenu()
     {
 
     }
 
-    void pMenu(Person* p)
+    void pMenu()
     {
 
     }
