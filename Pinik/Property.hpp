@@ -9,23 +9,47 @@ using namespace std;
 class Property
 {
 protected:
-    string propType;
+    string type;
     Vendor owner;
     vector<string> features;
     double buyPrice;
     double sellPrice;
-    Date available;
+    Date availableDate;
     static int AvId;
 
 public:
-
     int id;
 
+    string getType()
+    {
+        return type;
+    }
+    Vendor getOwner()
+    {
+        return owner;
+    }
+    vector<string> getFeatures()
+    {
+        return features;
+    }
+    double getBuyPrice()
+    {
+        return buyPrice;
+    }
+    double getSellPrice()
+    {
+        return buyPrice;
+    }
+    Date getAvailableDate()
+    {
+        return availableDate;
+    }
     Property()
     {
         id = AvId;
         AvId++;
     }
+
 
 };
 

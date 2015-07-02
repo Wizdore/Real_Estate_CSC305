@@ -8,6 +8,7 @@ using namespace std;
 class Person{
 protected:
     string name;
+    string type;
     Adress adress;
     string contactnumber;
     string email;
