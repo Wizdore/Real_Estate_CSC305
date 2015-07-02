@@ -32,3 +32,6 @@
 *.depend
 *.layout
 Thumbs.db
+*.h
+include/Menu.h
+*.h
