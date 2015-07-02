@@ -24,7 +24,11 @@ private:
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     void customerMenu()
+=======
+    void cMenu(Person* p)
+>>>>>>> parent of e0d7194... Menu changes
 =======
     void cMenu(Person* p)
 >>>>>>> parent of e0d7194... Menu changes
@@ -33,7 +37,11 @@ private:
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     void employeeMenu()
+=======
+    void eMenu(Person* p)
+>>>>>>> parent of e0d7194... Menu changes
 =======
     void eMenu(Person* p)
 >>>>>>> parent of e0d7194... Menu changes
@@ -42,7 +50,11 @@ private:
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     void vendorMenu()
+=======
+    void vMenu(Person* p)
+>>>>>>> parent of e0d7194... Menu changes
 =======
     void vMenu(Person* p)
 >>>>>>> parent of e0d7194... Menu changes
@@ -51,7 +63,11 @@ private:
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     void personMenu()
+=======
+    void pMenu(Person* p)
+>>>>>>> parent of e0d7194... Menu changes
 =======
     void pMenu(Person* p)
 >>>>>>> parent of e0d7194... Menu changes
