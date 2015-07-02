@@ -7,6 +7,9 @@ protected:
     int month;
     int year;
 public:
+    int getDay() return day;
+    int getMonth() return month;
+    int getYear() return year;
     friend istream& operator >>(istream &, Date &);
     friend ostream& operator <<(ostream &, Date &);
 };

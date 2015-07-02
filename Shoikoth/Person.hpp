@@ -15,6 +15,14 @@ protected:
     Date dob;
     static int AvId;
 public:
+
+    string getName () return name;
+    string getType () return type;
+    Adress getAdress () return adress;
+    string getContactnumber () return contactnumber;
+    string getEmail () return email;
+    Date getDate () return dob;
+
     int id;
     Person()
     {
@@ -53,6 +61,13 @@ protected:
     string word;
     string cpostottrice;
 public:
+
+    int getMainrange () return mainrange;
+    int getMaxrange () return maxrange;
+    string getCproptype () return cproptype;
+    string getWord () return word;
+    string getCpostottrice () return cpostottrice;
+
     friend istream &operator>>(istream &, Customer&);
     friend ostream &operator<<(ostream &, Customer&);
 };
@@ -67,6 +82,8 @@ protected:
     double salary;
     string designation;
 public:
+    double getSalary() return salary;
+    string getDesignation() return designation;
     friend istream & operator >>(istream &, Employee &);
     friend ostream & operator <<(ostream &, Employee &);
 };

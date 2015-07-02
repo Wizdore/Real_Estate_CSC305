@@ -49,8 +49,6 @@ public:
         id = AvId;
         AvId++;
     }
-
-
 };
 
 

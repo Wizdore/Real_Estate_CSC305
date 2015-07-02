@@ -1,7 +1,7 @@
 #include "library.h"
 #include "Shoikoth/Person.hpp"
-#include "Menu.h"
+#include "include/Menu.h"
 int main()
 {
-
+    menu.display();
 }
